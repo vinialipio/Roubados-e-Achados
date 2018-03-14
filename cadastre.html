@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Cadastre-se</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body>
+    <nav class="nav navbar-inverse">
+      <div class="container">
+        
+        <div class="navbar-header">
+          <button type ="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacao">
+            <span class="sr-only">Alternar Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="index.html" class="navbar-brand">R&amp;A</a>
+        
+        </div>
+        
+        <div class="collapse navbar-collapse" id="navegacao">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="quemsomos.html">Quem Somos</a></li>
+        
+
+            </li>
+
+
+          </ul>
+        </div>
+
+
+
+
+      </div><!-- Container -->
+
+    </nav>
+
+      <div>
+        <div class="barra-superior"> <h2 class="cabecalho">Roubados e Achados</h2> </div>
+        
+        <div class="container">
+          
+          
+          <div class="conteudo col-md-4">
+            <h3>Cadastro</h3>
+             
+              <div class="form-group">
+                <label for="nome">Nome Completo</label>
+                  <input type="text" class="form-control" id="nome" placeholder="Digite seu nome completo" required>
+              </div>
+
+              <div class="form-group">
+                <label for="data-nasc">Data de Nascimento</label>
+                <input type="date" class="form-control" id="data-nasc" required>
+              </div>
+
+                <label>Sexo:</label>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked required>
+                    Masculino
+                </label>
+              </div>
+              <div class="radio">
+                <label>
+                  <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" required>
+                    Feminino
+                </label>
+              </div><br>
+
+
+               <div class="form-group">
+                <label for="cpf">CPF</label>
+                <input type="text" class="form-control" id="cpf" placeholder="Digite seu CPF, com pontos (.) e traços (-)" required>
+              </div>
+
+               <div class="form-group">
+                <label for="endereco">Endereço</label>
+                <input type="text" class="form-control" id="endereco" placeholder="Ex: Rua , Número" required>
+              </div>
+
+              
+
+               <div class="form-group ">
+                <label for="cidade">Cidade</label>
+                <input type="text" class="form-control" id="cidade" placeholder="Digite sua Cidade" required>
+              </div>
+
+               <div class="form-group">
+                <label for="uf">UF</label>
+                <select class="form-control" required>
+                
+                <option value="">Selecione</option>
+                <option value="AC">AC</option>
+                <option value="AL">AL</option>
+                <option value="AM">AM</option>
+                <option value="AP">AP</option>
+                <option value="BA">BA</option>
+                <option value="CE">CE</option>
+                <option value="DF">DF</option>
+                <option value="ES">ES</option>
+                <option value="GO">GO</option>
+                <option value="MA">MA</option>
+                <option value="MG">MG</option>
+                <option value="MS">MS</option>
+                <option value="MT">MT</option>
+                <option value="PA">PA</option>
+                <option value="PB">PB</option>
+                <option value="PE">PE</option>
+                <option value="PI">PI</option>
+                <option value="PR">PR</option>
+                <option value="RJ">RJ</option>
+                <option value="RN">RN</option>
+                <option value="RS">RS</option>
+                <option value="RO">RO</option>
+                <option value="RR">RR</option>
+                <option value="SC">SC</option>
+                <option value="SE">SE</option>
+                <option value="SP">SP</option>
+                <option value="TO">TO</option>
+                </select>
+                </div>
+              
+
+
+               <div class="form-group">
+                <label for="tel">Telefone</label>
+                <input type="text" class="form-control" id="tel" placeholder="Ex: (DDD)0000-0000" >
+              </div>
+
+               <div class="form-group">
+                <label for="cel">Celular</label>
+                <input type="text" class="form-control" id="cel" placeholder="Ex: (DDD)00000-0000"  >
+              </div>
+
+              <div class="form-group">
+                <label for="e-mail">E-mail</label>
+                <input type="email" class="form-control" id="e-mail" placeholder="desittads@gmail.com" required >
+              </div>
+
+               <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" class="form-control" id="senha" name="senha" required>
+              </div><br><br><br>
+
+              <button type="button" class="btn btn-primary" name="registrar">Registrar</button>
+              <br><br><br><br>
+        
+
+
+
+        </div><!--div cadastro-->
+
+          <div class="imagem col-md-6 img5"><img src="imagens/img5.png" class="img5 img-responsive"></div>
+       
+        
+        </div><!--div container-->
+      </div><!--div-->
+
+      <footer>
+        <div class="row">
+          <div class="col-md-2 rodape">
+            <a href="sobre-o-site.html"><h4>Sobre o Site</h4></a>
+          </div>
+           <div class="col-md-10 rodape">
+              <ul>
+                <li class="rds"><a href=""><img src="imagens/facebook.png"></a></li>
+              </ul>
+          </div>
+
+        </div><!--row-->
+      </footer>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

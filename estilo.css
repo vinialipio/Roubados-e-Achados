@@ -1,0 +1,100 @@
+/*
+*
+*
+* @author Robson Lisboa
+* @version 0.1
+*/
+
+/* ============ Layout ============= */
+.barra-superior{
+	background-color: #FFF99D;
+	padding: 40px;
+
+}
+
+body{
+	font-family: Verdana, Geneva, sans-serif;
+	
+}
+
+.cabecalho{
+	font-weight: 900;
+}
+
+.imagem{
+	
+	float: right;
+}
+
+
+footer{
+	
+	padding: 5px 20px 53px 20px;
+	background-color: #100F0F;
+}
+
+
+ul{
+	list-style-type: none;
+}
+
+.rds{
+	padding-top:10px;
+	float: right;
+}
+
+a{
+	text-decoration: none;
+}
+
+/* links não visitados */
+a:link {
+	color: #6D6969;
+	
+}
+
+
+/* links não Visitados */
+a:visited{
+	color:#AE9D9D;
+}
+
+/*linsks hover, ao passar o cursor sobre o link*/
+a:hover{
+	color:white;
+} 
+
+.cadastre:hover{
+	color:#451FDD;
+}
+
+#tel{
+	float: left;
+}
+
+.img5{
+	width: 500px;
+	height: 500px;
+
+}
+
+.img6{
+	width:700px;
+	height: 500px;
+
+}
+
+
+/* ============ Tipografia ============= */
+
+.cadastre{
+	color:#1822E6;
+	padding: 175px;
+
+}
+
+
+.conteudo{
+
+
+}

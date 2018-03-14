@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Página Inicial</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  
+  <body>
+    <nav class="nav navbar-inverse">
+      <div class="container">
+        
+        <div class="navbar-header">
+          <button type ="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navegacao">
+            <span class="sr-only">Alternar Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="index.html" class="navbar-brand">R&amp;A</a>
+        
+        </div>
+        
+        <div class="collapse navbar-collapse" id="navegacao">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="pg-inicial.html">Home</a></li>
+            <li><a href="quemsomos.html">Quem Somos</a></li>
+            <li><a href="cad-veiculo.html">Cadastre seu Veículo</a></li>
+            <li><a href="denuncie.html">Denúncie</a></li>
+            <li><a href="status.html">Acompanhe seu veículo</a></li>
+
+            <!-- dropdown janela-->
+            <li><a href="#" class="dropdown-toggle" data-toggle="dropdown">Minha Conta
+              <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="alterar-cadastro.html">Alterar Cadastro Conta</a></li>
+                <li><a href="alterar-cad-veiculo.html">Alterar Cadastro do Veículo</a></li>
+                <li><a href="">Logout</a></li>
+                
+              </ul>
+
+            </li><!-- fim dropdown -->
+
+
+          </ul>
+        </div>
+
+
+
+
+      </div><!-- Container -->
+
+    </nav>
+
+      <div>
+        <div class="barra-superior"> <h2 class="cabecalho">Roubados e Achados</h2> </div>
+        <div class="container">
+          
+          
+          <div class="conteudo col-md-4">
+            <h3>Você se Cadastrou no R&amp;A</h3>
+            <p>Agora você pode cadastrar seu Veículo Roubado, que por via de denúncias pode ser localizado</p>
+            <p>Ajude os outros proprietários de veículos roubados, fazendo denúncias.</p>
+            <br>
+            <h4>Dúvidas ?</h4>
+            <p>Qualquer dúvida, é só nos contatar via e-mail. O nosso e-mail se encontra ná página Quem Somos, e estamos abertos a tirar qualquer tipo de dúvida devido ao site.</p>
+
+
+             
+
+          </div>
+          <div class="imagem col-md-8" style="padding-left:150px;"><img src="imagens/img10.png" class="img10 img-responsive"></div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="row">
+          <div class="col-md-2 rodape">
+            <a href="sobre-o-site.html"><h4>Sobre o Site</h4></a>
+          </div>
+           <div class="col-md-10 rodape">
+              <ul>
+                <li class="rds"><a href=""><img src="imagens/facebook.png"></a></li>
+              </ul>
+          </div>
+
+        </div><!--row-->
+      </footer>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
